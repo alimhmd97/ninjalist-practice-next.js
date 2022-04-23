@@ -1,7 +1,9 @@
-import React from "react";
-
-function Footer() {
-  return <footer>copy rights 2021 ninja list </footer>;
+const Footer = () => {
+  return (
+    <footer>
+      Copyright 2021 Ninja List
+    </footer>
+  );
 }
-
-export { Footer };
+ 
+export default Footer;
